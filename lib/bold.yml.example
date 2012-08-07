@@ -1,0 +1,8 @@
+development:
+  host: 127.0.0.1
+  port: 6000
+  client_guid: '{9E568BED-71CC-455F-967A-956D34F9E0BA}'
+production:
+  host: 127.0.0.1
+  port: 6000
+  client_guid: '{9E568BED-71CC-455F-967A-956D34F9E0BA}'

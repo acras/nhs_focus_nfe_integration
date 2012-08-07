@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  encoding: LATIN1
+  database: ERPTeste
+  username: nhs
+  host: localhost
+production:
+  adapter: postgresql
+  encoding: LATIN1
+  database: ERP
+  username: nhs
+  host: localhost
+
