@@ -38,7 +38,7 @@ module NFeIntegrator
           'nfecodigoretorno' => source_obj.codigo_status_efetivo.to_s,
           'nfemsgretorno' => conv(source_obj.mensagem_status_efetiva.to_s),
           'nfeestadoprocessamento' => '')
-    elsif source_obj.codigo_status_efetivo == '101'
+    elsif source_obj.codigo_status_efetivo == '135'
       nf.update_attributes!(
           'situacao' => nf.get_estado_id('autorizada_cancelamento'),
           'nfecodigoretorno' => source_obj.codigo_status_efetivo.to_s,
